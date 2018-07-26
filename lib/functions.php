@@ -9,8 +9,12 @@ la logique pour choisir la page à charger
 function getContent(){
 	if(!isset($_GET['page'])){
 		include __DIR__.'/../pages/home.php';
-	} else {
+	} 
+	else if($_GET['page'] == "bio"){
 		// le reste du code
+		include __DIR__.'/../pages/bio.php';
+	} else if($_GET['page'] == "contact"){
+		include __DIR__.'/../pages/contact.php';
 	}
 }
 
