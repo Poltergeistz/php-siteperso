@@ -4,7 +4,7 @@
 <h4> Bienvenue </h4>
 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis iste nulla distinctio corporis ducimus, mollitia obcaecati? Magnam, quaerat officiis tempora maiores, ea eos itaque possimus dolorum reprehenderit quod eveniet est.</p>
 
-<h4> Mes Projets </h4>
+<h4 class="ui horizontal divider header"><i class="cubes icon"></i>Mes Projets </h4>
 <div class="ui three column grid link cards">
 <div class="ui card">
 <div class="image">

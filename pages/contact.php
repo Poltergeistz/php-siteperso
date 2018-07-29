@@ -9,14 +9,12 @@
 <div class="ui list">
   <div class="item">
     <i class="users icon"></i>
-    <div class="content">
-      Mon site perso
+    <div class="content">Mon site perso
     </div>
   </div>
   <div class="item">
     <i class="marker icon"></i>
-    <div class="content">
-      Palaminy, FR
+    <div class="content">Palaminy, FR
     </div>
   </div>
   <div class="item">
