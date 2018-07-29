@@ -16,14 +16,17 @@ function getContent(){
 	} else if($_GET['page'] == 'contact'){
 		include __DIR__.'/../pages/contact.php';
 	}
+	elseif($_GET['page'] == 'admin'){
+		include __DIR__.'/../public/admin.php';
+	}
 }
 
 function getPart($name){
 	include __DIR__ . '/../parts/'. $name . '.php';
 }
 
-function getUserData(){
-	$data = file_get_contents(__DIR__.'/../data/user.json');
+function getUserData($filePath){
+	$data = file_get_contents($filePath);
 	$decode = json_decode($data);
 	foreach($decode as $key => $value){
 		echo("<br>"."<b>".$key." :</b> $value "); // Affiche l'array a cause du foreach 
