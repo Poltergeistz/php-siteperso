@@ -1,5 +1,5 @@
 <div class="ui container">
-<h1>home</h1>
+<h1>Home</h1>
 
 <h4> Bienvenue </h4>
 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis iste nulla distinctio corporis ducimus, mollitia obcaecati? Magnam, quaerat officiis tempora maiores, ea eos itaque possimus dolorum reprehenderit quod eveniet est.</p>
@@ -25,7 +25,7 @@
 </div>
 <div class="ui card">
 <div class="image">
-  <img src="img/Chat_Vacances.jpeg">
+  <img src="https://www.midwestwholesale.com/pub/media/wysiwyg/page-glossary.jpg">
   </div>
   <div class="content">
   <a href="https://github.com/Djohn12/Glossaire" class="header">Projet fil rouge : Glossaire</a>
@@ -37,7 +37,7 @@
 </div>
 </div>
 <div class="extra content">
-		<span class="right floated">Date : Tout le long de la formation</span>
+<span class="right floated">Date : Tout le long de la formation</span>
 </div>
 </div>
 <div class="ui card">

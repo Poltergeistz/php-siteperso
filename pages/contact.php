@@ -1,21 +1,10 @@
 <div class="ui container">
-<h1>contact</h2>
-<h4> Votre message </h4>
-<form action="/save.php" method="POST">
-<label>Email</label>
-<div class="ui input">
-  <input placeholder="Votre e-mail..." type="email" name="email" id="email">
-</div>
-<div class="ui form">
-  <div class="field">
-  <label>Envoyez moi un message ici :</label>
-    <textarea name="message" placeholder="Votre message ici"></textarea>
-  </div>
-<input class="ui button" type="submit" name="envoyer">
-</div>
-</form>
-<!-- Form end -->
+<h1>Contact</h2>
 
+<!-- column grid -->
+<div class="ui two column grid">
+<div class="column">
+<div class="ui segment">
 <!-- Info section -->
 <div class="ui list">
   <div class="item">
@@ -44,6 +33,32 @@
   </div>
 </div>
 <!-- Info section end -->
+</div>
+</div>
+
+<!-- Message section -->
+<div class="column">
+<div class="ui segment">
+<h4> Votre message </h4>
+<form action="/save.php" method="POST">
+<label>Email</label>
+<div class="ui input">
+  <input placeholder="Votre e-mail..." type="email" name="email" id="email">
+</div>
+<div class="ui form">
+  <div class="field">
+  <label>Envoyez moi un message ici :</label>
+    <textarea name="message" placeholder="Votre message ici"></textarea>
+  </div>
+<input class="ui button" type="submit" name="envoyer">
+</div>
+</form>
+<!-- Form end -->
+</div>
+</div>
+
+<!-- Column grid end -->
+</div>
 
 <!-- End of container -->
 </div>
